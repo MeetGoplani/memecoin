@@ -85,7 +85,7 @@ body {
 
 .upload-box {
     flex: 1;
-    padding:20px;
+    padding: 20px;
 }
 
 .upload-box label {
@@ -142,6 +142,7 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .form-group {
@@ -194,12 +195,8 @@ body {
     border-color: #ffff00;
 }
 
-
-
-
-
 .wallet-button {
-   margin-top: 20px;
+    margin-top: 20px;
     background-color: #ff007a;
     color: white;
     padding: 10px 20px;
@@ -213,3 +210,4 @@ body {
 .wallet-button:hover {
     background-color: #d60063;
 }
+

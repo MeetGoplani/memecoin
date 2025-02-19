@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonshot UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">Launch your token on <span class="highlight"></span></div>
+        <div class="subtext"> Takes just a few seconds </div>
+
+        <div class="section-title">Choose a Chain</div>
+        <div class="box" id="chain-box">
+            <div class="option selected">Solana</div>
+            <div class="option">Base</div>
+            <div class="option">Abstract</div>
+            <div class="option">Berachain</div>
+        </div>
+
+        <div class="section-title">Choose a DEX</div>
+        <div class="box" id="dex-box">
+            <div class="option selected">Raydium<br><small>Get 2 SOL when your token migrates</small></div>
+            <div class="option">Meteora<br><small>AirLock! Top 50 holders get LP rewards daily! <a href="#" style="color: yellow;">More &gt;</a></small></div>
+        </div>
+
+        <div class="section-title">Token Information</div>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="token-symbol">Token Symbol *</label>
+                <input type="text" id="token-symbol">
+            </div>
+            <div class="form-group">
+                <label for="token-name">Token Name *</label>
+                <input type="text" id="token-name">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description"></textarea>
+            </div>
+
+            <!-- New URL Input Fields -->
+            <div class="form-group">
+                <label for="website-url">Official Website URL *</label>
+                <input type="url" id="website-url" placeholder="https://example.com">
+            </div>
+            <div class="form-group">
+                <label for="twitter-url">Twitter URL *</label>
+                <input type="url" id="twitter-url" placeholder="https://twitter.com/example">
+            </div>
+            <div class="form-group">
+                <label for="telegram-url">Telegram URL *</label>
+                <input type="url" id="telegram-url" placeholder="https://t.me/example">
+            </div>
+            <div class="form-group">
+                <label for="discord-url">Discord URL</label>
+                <input type="url" id="discord-url" placeholder="https://discord.com/invite/example">
+            </div>
+        </div>
+        <div class="section-title">Upload Icon & Banner</div>
+    <div class="upload-container">
+        <div class="upload-box">
+            <label>Icon <span class="required">*</span></label>
+            <div class="upload-area" id="icon-upload">
+                <img id="icon-preview" src="" alt="Icon Preview">
+                <span>📷 Upload</span>
+                <input type="file" id="icon-input" accept="image/*">
+            </div>
+        </div>
+        <div class="upload-box">
+            <label>Banner</label>
+            <div class="upload-area" id="banner-upload">
+                <img id="banner-preview" src="" alt="Banner Preview">
+                <span>📷 Upload</span>
+                <input type="file" id="banner-input" accept="image/*">
+            </div>
+        </div>
+    </div>
+
+    <button id="uniswap-wallet-btn" class="wallet-button">Connect Uniswap Wallet</button>
+    </div>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

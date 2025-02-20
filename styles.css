@@ -162,9 +162,9 @@ body {
     resize: none;
 }
 
-<<<<<<< HEAD
+
 /* Wallet Button */
-=======
+
 /* URL Input Fields */
 .url-inputs {
     margin-top: 20px;
@@ -189,7 +189,6 @@ body {
     border-color: #ffff00;
 }
 
->>>>>>> 67022d8d2d2ce9dd77aac98bfc2744a5220012e1
 .wallet-button {
     margin-top: 20px;
     background-color: #ff007a;

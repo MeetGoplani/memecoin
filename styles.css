@@ -66,15 +66,6 @@ body {
     border: 2px solid #ffff00;
 }
 
-.new-badge {
-    background-color: yellow;
-    color: black;
-    font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-left: 5px;
-}
-
 /* Upload Section */
 .upload-container {
     display: flex;
@@ -171,30 +162,7 @@ body {
     resize: none;
 }
 
-/* URL Input Fields */
-.url-inputs {
-    margin-top: 20px;
-}
-
-.url-inputs .form-group {
-    margin-bottom: 15px;
-}
-
-.url-inputs input {
-    width: 100%;
-    padding: 10px;
-    background-color: #1a1a1a;
-    border: 1px solid #ffffff50;
-    color: white;
-    font-size: 16px;
-    border-radius: 5px;
-    outline: none;
-}
-
-.url-inputs input:focus {
-    border-color: #ffff00;
-}
-
+/* Wallet Button */
 .wallet-button {
     margin-top: 20px;
     background-color: #ff007a;
@@ -209,4 +177,16 @@ body {
 
 .wallet-button:hover {
     background-color: #d60063;
+}
+
+.wallet-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Error Messages */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
 }
